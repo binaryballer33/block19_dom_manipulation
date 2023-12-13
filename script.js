@@ -46,3 +46,5 @@ generateMorePeopleButton.addEventListener('click', () => {
     populateFreelancerDiv(freelancerDiv, freelancers);
 });
 generateMorePeopleButtonDiv.appendChild(generateMorePeopleButton);
+
+setInterval(() => {generateMorePeopleButton.click()}, 5000);
