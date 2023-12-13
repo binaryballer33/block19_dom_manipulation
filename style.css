@@ -1,20 +1,63 @@
 body {
     box-sizing: border-box;
+    background-color: #f3f3f3;
 }
 
 h1 {
-
+    text-align: center;
+    color: darkblue;
 }
 
 h2 {
-
+    color: darkviolet;
 }
 
 h3 {
-
+    color: darkgreen;
 }
 
-p {
-
+#myPeople {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 500px;
+    max-height: '90vh';
+    background-color: aliceblue;
 }
 
+.freelancersDiv {
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+#generateMorePeopleButton {
+    margin: 8px;
+    border: 1px solid blue;
+    padding: 8px;
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+#generateMorePeopleButtonDiv {
+    display: flex;  
+    justify-content: center;
+    margin: 16px;
+}
+
+.freelancers {
+    margin: 8px;
+    border: 1px solid blue;
+    padding: 8px;
+    background-color: #f3f3f3;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
